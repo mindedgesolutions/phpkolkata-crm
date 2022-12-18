@@ -18,10 +18,6 @@ class AdminController extends Controller
 	 */
 	public function index()
 	{
-		// $users = User::where('role', 2)->where('active', true)->orderBy('name')->paginate(10);
-
-		// Line commented, line added
-
 		$users = User::where('role', 2)->where('active', true)->orderBy('name')->paginate(10);
 
 		return view('crm.users.admin.index', compact('users'));
