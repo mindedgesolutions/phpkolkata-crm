@@ -20,8 +20,6 @@ class AdminController extends Controller
 	{
 		$users = User::where('role', 2)->where('active', true)->orderBy('name')->paginate(10);
 
-		// The change is to test GITHub
-
 		return view('crm.users.admin.index', compact('users'));
 	}
 
