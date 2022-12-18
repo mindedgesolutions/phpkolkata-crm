@@ -1,0 +1,5 @@
+.alertify .dialog .msg, .alertify .alert .msg{color: #76838f;}
+[class^='select2'] {border-radius: 0px !important;box-shadow: inset;}
+[id^=assign_to_]{min-width: 150px;max-width: 200px;}
+.select2, .select2-container, .select2-container--default{z-index: 1!important;}
+.form-control{border-radius: 0!important;}
